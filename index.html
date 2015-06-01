@@ -28,6 +28,22 @@
        url('/fonts/Trykker-regular/Trykker-regular.svg#Trykker') format('svg');
 }
 
+@font-face {
+  font-family: 'Asap';
+  font-weight: 700;
+  font-style: normal;
+  src: url('/fonts/Asap-700/Asap-700.eot');
+  src: url('/fonts/Asap-700/Asap-700.eot?#iefix') format('embedded-opentype'),
+       local('Asap Bold'),
+       local('Asap-700'),
+       url('/fonts/Asap-700/Asap-700.woff2') format('woff2'),
+       url('/fonts/Asap-700/Asap-700.woff') format('woff'),
+       url('/fonts/Asap-700/Asap-700.ttf') format('truetype'),
+       url('/fonts/Asap-700/Asap-700.svg#Asap') format('svg');
+}
+
+
+
 * {
             border: 0;
             margin: 0;
@@ -35,7 +51,7 @@
             box-sizing: border-box;
 
             color: #675741;
-            font: 14px/28px Roboto, serif;
+            font: 14px/28px Trykker, serif;
         }
         html {
             width: 100%;
@@ -59,8 +75,7 @@
         }
         h1 {
             margin: 16px 0 0;
-            font-size: 28px;
-            line-height: 48px;
+            font: 28px/48px Asap, sans-serif;
         }
         p {
             margin: 0 0 12px;
